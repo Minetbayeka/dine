@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+   /* margin-top: 40px;*/
+    
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-top: 20px;
+}
+nav ul li a{
+    color: rgb(121, 118, 118);
+    text-decoration: none;
+    padding: 20px;
+    margin-right: 60px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: space-between;
+}
+.col-1{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+ .col-1 img{
+    width: 90%;
+    height: 45%;
+ }
+.col-2{
+    height: 68%;
+    padding: 50px;
+    margin-top: 50px;
+    margin-right:60px ;
+    background: rgb(19, 19, 43);
+    color: white;
+}
+.col-2 h2{
+    margin-top: 50px;
+}
+.col-2 p{
+    margin-top: 15px;
+}
+.col{
+    padding-top: 50px;
+}
+.col h1{
+    font-size: 25px;
+}
+.col p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.col-3{
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-left: 0;
+    
+}
+.col-3 h1{
+    font-size: 75px;
+    
+}
+.col-3 p{
+     color: rgb(121, 118, 118);
+    font-size:20px ;
+    margin-right: 20px;
+}
+button{
+    text-decoration: none;
+    background: rgb(236, 85, 85);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 55px;
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+    border: none;
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.card img{
+    width: 50px;
+    height: 120px;
+    flex: 1;
+     left: 10%;
+    right: 10%;
+}
+.text{
+    flex: 1;
+    padding: 0 40px;
+}
+.text h1{
+    color: rgb(121, 118, 118);   
+}
+.card h2{
+    font-size: 18px;
+}
+
+
+.card-1{
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    margin-right: 60px;
+    margin-left: 60px;
+    
+}
+.card-1 img{
+    width: 50px;
+    height: 120px;
+    flex: 1;
+    left: 10%;
+    right: 10%;
+}
+.text{
+    flex: 1;
+    padding: 0 40px;
+}
+.card-1 h2{
+    font-size: 18px;
+}
+
+nav h1{
+margin-right: 670px;
+}
+
+/* trying to do some responsiveness but it's not going*/
+
+@media only screen and (max-width:600px){
+    .card .card-1 img{
+    width: 20px;
+    height: 100px;
+}
+
+.col-2{
+    height: 40%;
+    padding: 30px;
+    
+}
+.col-2 h2{
+    font-size: 18px;
+}
+.col-2 p{
+    font-size: 15px;
+}
+.col-2 h1{
+    font-size: 20px;
+    padding: 2px;
+}
+.col-2{
+    padding: 1px;
+}
+
+}
+
+
